@@ -1,9 +1,11 @@
+import { Result } from "./components"
 
 function App() {
- 
+
   return (
     <>
-   
+    <Result/>
+
     </>
   )
 }
