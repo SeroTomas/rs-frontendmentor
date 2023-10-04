@@ -1,12 +1,15 @@
-import { Result } from "./components"
+import { StyledApp, StyledLayout } from "./app.styles"
+import { Result, Summary } from "./components"
 
 function App() {
 
   return (
-    <>
-    <Result/>
-
-    </>
+    <StyledApp>
+      <StyledLayout>
+        <Result />
+        <Summary/>
+      </StyledLayout>
+    </StyledApp>
   )
 }
 
