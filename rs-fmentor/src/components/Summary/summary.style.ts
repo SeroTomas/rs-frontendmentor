@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const StyledSummary = styled.div`
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
+justify-content: space-between;
 height: 55%;
 flex-grow: 1;
 padding: 20px;
@@ -12,6 +12,12 @@ font-family: ${Fonts.hankenGrotesk};
 
 .title{
     font-size: 1.6rem;
+}
+
+.unit{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .btn{
@@ -30,6 +36,20 @@ font-family: ${Fonts.hankenGrotesk};
     &:hover{
         cursor: pointer;
         background-color: ${Gradients.backgroundRoyalBlue};
+    }
+
+    
+}
+@media (min-width:1440px){
+    height: 100%;
+    justify-content: space-around;
+
+    .title{
+        font-size: 2rem;
+    }
+
+    .unit{
+        gap: 20px;
     }
 
 }

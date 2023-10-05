@@ -3,16 +3,18 @@ import { StyledSummary } from "./summary.style";
 import { data } from "@src/utilities";
 
 
+
 const Summary = () => {
     return (
         <StyledSummary>
             <h2 className="title">Summary</h2>
-            <div className="units">
+            <div className="unit">
                 {
                     data.map(element => <SummaryUnit
                         category={element.category}
                         score={element.score}
                         icon={element.icon}
+                        key={element.category}
                     />)
                 }
             </div>

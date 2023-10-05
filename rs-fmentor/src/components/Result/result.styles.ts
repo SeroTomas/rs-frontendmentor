@@ -60,8 +60,33 @@ export const StyledResult = styled.div`
         }
 
     }
-`
 
-export const StyledCircle = styled.div`
-    
+    @media (min-width:1440px){
+        height: 100%;
+        border-radius: inherit;
+
+        h2{
+            font-size: 2rem;
+        }
+
+        .circle{
+            height: 200px;
+            width: 200px;
+
+            p{
+                font-size: 7rem;
+            }
+        }
+
+        .text{
+            gap: 10px;
+            h3{
+                font-size: 3rem;
+            }
+
+            p{
+                font-size: 1.8rem;
+            }
+        }
+    }
 `

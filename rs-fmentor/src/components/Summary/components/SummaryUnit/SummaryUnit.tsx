@@ -1,22 +1,21 @@
+import UnitStyleDefiner from "../UnitStyleDefiner";
 import { StyledSummaryUnit } from "./summaryUnit.style";
+import { UnitType } from "@src/utilities";
 
-interface Props {
-    category: string
-    score: number
-    icon: string
-}
+const SummaryUnit = ({ category, score, icon }: UnitType) => {
 
-const SummaryUnit = ({ category, score, icon }: Props) => {
     return (
-        <StyledSummaryUnit>
-            <div className="info">
-                <img src={icon} alt="icon" />
-                <p>{category}</p>
-            </div>
-            <p className="score">
-                {score} / 100
-            </p>
-        </StyledSummaryUnit>
+        <UnitStyleDefiner category={category}>
+            <StyledSummaryUnit>
+                <div className="info">
+                    <img src={icon} alt="icon" />
+                    <p>{category}</p>
+                </div>
+                <div className="score">
+                    <span>{score}</span> <p>/ 100 </p>
+                </div>
+            </StyledSummaryUnit >
+        </UnitStyleDefiner>
     )
 }
 export default SummaryUnit

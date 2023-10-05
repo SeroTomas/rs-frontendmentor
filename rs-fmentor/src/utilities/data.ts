@@ -1,4 +1,13 @@
-export const data = [
+
+export interface UnitType{
+  category: Category
+  score: number
+  icon: string
+}
+
+export type Category = 'Reaction' | 'Memory' | 'Verbal' | 'Visual'
+
+export const data : UnitType[] = [
   {
     "category": "Reaction",
     "score": 80,
