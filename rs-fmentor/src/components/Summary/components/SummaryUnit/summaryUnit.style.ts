@@ -1,4 +1,4 @@
-import { Neutral, PrimaryColors } from "@src/utilities";
+import { Neutral} from "@src/utilities";
 import styled from "styled-components";
 
 export const StyledSummaryUnit = styled.div`
