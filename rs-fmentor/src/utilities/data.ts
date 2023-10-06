@@ -11,21 +11,21 @@ export const data : UnitType[] = [
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "../../../assetsassets/images/icon-reaction.svg"
+    "icon": "./public/assets/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "../../../assetsassets/images/icon-memory.svg"
+    "icon": "./public/assets/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "../../../assetsassets/images/icon-verbal.svg"
+    "icon": "./public/assets/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "../../../assetsassets/images/icon-visual.svg"
+    "icon": "./public/assets/images/icon-visual.svg"
   }
 ]
