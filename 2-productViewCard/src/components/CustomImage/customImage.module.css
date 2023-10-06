@@ -1,0 +1,6 @@
+
+.imageContainer img{
+    max-width: 375px;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
