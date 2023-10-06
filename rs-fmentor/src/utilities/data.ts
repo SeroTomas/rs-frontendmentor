@@ -11,7 +11,7 @@ export const data : UnitType[] = [
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "assets/images/icon-memory.svg"
+    "icon": "assets/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
