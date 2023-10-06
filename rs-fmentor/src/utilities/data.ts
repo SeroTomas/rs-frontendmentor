@@ -11,7 +11,7 @@ export const data : UnitType[] = [
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "./public/assets/images/icon-reaction.svg"
+    "icon": "https://rs-frontendmentor-serotomas.vercel.app/public/assets/images/icon-reaction.svg"
   },
   {
     "category": "Memory",
