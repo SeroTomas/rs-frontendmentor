@@ -2,8 +2,6 @@ import SummaryUnit from "./components/SummaryUnit/SummaryUnit";
 import { StyledSummary } from "./summary.style";
 import { data } from "@src/utilities";
 
-
-
 const Summary = () => {
     return (
         <StyledSummary>
