@@ -11,21 +11,21 @@ export const data : UnitType[] = [
   {
     "category": "Reaction",
     "score": 80,
-    "icon": "https://rs-frontendmentor-serotomas.vercel.app/public/assets/images/icon-reaction.svg"
+    "icon": "assets/images/icon-memory.svg"
   },
   {
     "category": "Memory",
     "score": 92,
-    "icon": "./public/assets/images/icon-memory.svg"
+    "icon": "assets/images/icon-memory.svg"
   },
   {
     "category": "Verbal",
     "score": 61,
-    "icon": "./public/assets/images/icon-verbal.svg"
+    "icon": "assets/images/icon-verbal.svg"
   },
   {
     "category": "Visual",
     "score": 72,
-    "icon": "./public/assets/images/icon-visual.svg"
+    "icon": "assets/images/icon-visual.svg"
   }
 ]
