@@ -1,7 +1,36 @@
+.container{
+    padding: 25px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
 .infoContainer{
-    padding: 20px;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.sectionTitle{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: var(--montserat-font);
+    letter-spacing: 5px;
+    color: var(--dark-grayish-blue-neutral);
+    opacity: .7;
+}
+
+.productName{
+    color: var(----very-dark-blue-neutral);
+    font-size: 3.3rem;
+    font-family: var(--fraunces-font);
+    line-height: 1;
+}
+
+.productDescription{
+    color: var(--dark-grayish-blue-neutral);
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-family: var(--montserat-font);
 }

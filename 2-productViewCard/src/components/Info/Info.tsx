@@ -4,9 +4,9 @@ const Info = () => {
 
 
     return (
-        <div className={style.infoContainer}>
+        <div className={style.container}>
             <p className={style.sectionTitle}>PERFUME</p>
-            <div>
+            <div className={style.infoContainer}>
                 <h2 className={style.productName}>
                     Gabrielle Essence Eau De Parfum
                 </h2>
@@ -23,4 +23,4 @@ const Info = () => {
         </div>
     )
 }
-export default Info
+export default Info;
